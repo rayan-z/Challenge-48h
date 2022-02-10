@@ -1,0 +1,44 @@
+@font-face {
+    font-family: DS-DIGI;
+    src: url(DS-DIGI.TTF);
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DS-DIGI';
+    
+}
+
+body
+{
+    background-image: url(./starry-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+button 
+{
+    display: block;
+    margin: 300px auto 0;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #333;
+    padding: 25px 80px;
+    background: #61c0ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 6px #0508b9 ;
+}
+
+button:active
+{
+    box-shadow: 0 4px #0508b9;
+    top: 6px ;
+}
