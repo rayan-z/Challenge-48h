@@ -17,9 +17,6 @@ startButton.innerText = 'commencer';
 // Envoie div dans app
 app.append(startDiv);
 
-<<<<<<< HEAD
-startDiv.append(startButton);
-=======
 startDiv.append(startButton);
 
 startDiv.append(timer);
@@ -69,4 +66,3 @@ startButton.addEventListener('click', () => {
     startButton.remove();
     startTimer()
 })
->>>>>>> ab966a1 (JS pret pour timer)
