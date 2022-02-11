@@ -13,6 +13,10 @@ timer.id = 'timer';
 //Creation de la balise p
 //const txt = document.createElement('p');
 
+const iframe = document.createElement('div');
+iframe.innerHTML = '<widgetbot server="941334066718990346" channel="941334067163582485" width="800" height="600"></widgetbot>'
+iframe.style.display = 'none';
+
 // Creation du boutton
 const startButton = document.createElement('button');
 startButton.innerText = 'commencer';
@@ -24,17 +28,14 @@ startDiv.append(startButton);
 
 startDiv.append(timer);
 
+startDiv.append(iframe);
+
 
 /** COMPTE A REBOURS **/
-
-
 
 const addMinutes =  function (dt, minutes) {
     return new Date(dt.getTime() + (minutes*60000)+2000);
 }
-
-
-
 
 const startTimer = () => {
     let currentDate = new Date();
@@ -62,10 +63,8 @@ const startTimer = () => {
     }, 1000);
 }
 
-
-
-
 startButton.addEventListener('click', () => {
+    iframe.style.display = 'contents';
     startButton.remove();
     startTimer()
 })
