@@ -10,11 +10,12 @@
     box-sizing: border-box;
     font-family: 'DS-DIGI';
     
+    
 }
 
 body
 {
-    background-image: url(./starry-background.jpg);
+    background-image: url(./27121705.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -23,7 +24,7 @@ body
 button 
 {
     display: block;
-    margin: 300px auto 0;
+    margin: 80px auto 0;
     font-size: 30px;
     font-weight: lighter;
     color: #333;
@@ -45,13 +46,40 @@ button:active
 
 #timer
 {
-    margin: 260px 450px;
-    background: black;
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
     font-size: 5em;
     color: red;
     text-transform: uppercase;
-    box-shadow: rgb(0, 0, 0) 15px 10px 20px;
+   
 }
+
+p 
+{
+    font-weight: bold;
+    color: green;
+    font-size: x-large;
+    margin-top: 155px;
+    margin-left: 150px;
+    margin-right: 125px;
+}
+
+#splitright 
+{
+ 
+    margin-top: 130px;
+
+}
+
+#splitleft 
+{
+  float: left;
+}
+
+#input 
+{
+    margin-left: 280px;
+    margin-top: 80px;
+}
+
