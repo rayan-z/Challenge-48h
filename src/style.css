@@ -42,3 +42,16 @@ button:active
     box-shadow: 0 4px #0508b9;
     top: 6px ;
 }
+
+#timer
+{
+    margin: 260px 450px;
+    background: black;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 5em;
+    color: red;
+    text-transform: uppercase;
+    box-shadow: rgb(0, 0, 0) 15px 10px 20px;
+}

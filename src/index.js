@@ -10,6 +10,9 @@ const startDiv = document.createElement('div');
 const timer = document.createElement('h3');
 timer.id = 'timer';
 
+//Creation de la balise p
+//const txt = document.createElement('p');
+
 // Creation du boutton
 const startButton = document.createElement('button');
 startButton.innerText = 'commencer';
